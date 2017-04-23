@@ -1,0 +1,22 @@
+.btn-menu{
+	bottom: 0;
+    right: 0;
+	width: 80px;
+	height: 80px;
+	border-color: transparent;
+	position: fixed;
+	background-color: #00bcd4;
+	box-shadow: 0 0 10px;
+	transition: height 1.2s;
+}
+
+.btn-menu:focus{
+	outline: 0;
+}
+.btn-menu:hover{
+	box-shadow: 0 0 12px;
+}
+
+.active-btn-menu{
+    height: 100%;
+}
