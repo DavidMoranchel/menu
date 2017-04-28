@@ -1,5 +1,5 @@
 body{
-	background-color: #03a9f4;
+	background-color: #ff5722;
 }
 .btn-menu{
 	z-index: 100;
@@ -16,7 +16,7 @@ body{
 	transition: all 300ms ease-out;
 	text-align: center;
 	line-height: 4.5;
-	background-color: #ffb300;
+	background-color: #e53935;
 	box-shadow: 0 0 10px;
 }
 .btn-menu:focus{
@@ -26,12 +26,12 @@ body{
 	box-shadow: 0 0 13px;
 	transform: scale(1.2);
 }
-.active-sub-menu:hover{	
+.active-sub-menu:hover{
 	box-shadow: 0 0 10px;
-	transform: scale(1.1);	
+	transform: scale(1.1);
 }
 .active-menu{
-	background-color: #f44336;
+	background-color: #ffc107;
 	border-radius: 0;
 }
 .sub-menu{
@@ -53,4 +53,3 @@ body{
 	font-size: 30px;
 	color: white;
 }
-
