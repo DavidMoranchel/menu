@@ -1,0 +1,56 @@
+body{
+	background-color: #03a9f4;
+}
+.btn-menu{
+	z-index: 100;
+}
+.btn-menu, .btn-sub-menu{
+	bottom: 20px;
+    right: 20px;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	border-color: transparent;
+	border-radius: 45px;
+	position: fixed;
+	transition: all 300ms ease-out;
+	text-align: center;
+	line-height: 4.5;
+	background-color: #ffb300;
+	box-shadow: 0 0 10px;
+}
+.btn-menu:focus{
+	outline: 0;
+}
+.btn-menu:hover{
+	box-shadow: 0 0 13px;
+	transform: scale(1.2);
+}
+.active-sub-menu:hover{	
+	box-shadow: 0 0 10px;
+	transform: scale(1.1);	
+}
+.active-menu{
+	background-color: #f44336;
+	border-radius: 0;
+}
+.sub-menu{
+	width: auto;
+}
+.btn-sub-menu{
+	box-shadow: 0 0 0;
+}
+.active-sub-menu{
+	box-shadow: 0 0 6px;
+}
+.active-sub-menu:nth-child(1){margin-right: 70px;}
+.active-sub-menu:nth-child(2){margin-right: 140px;}
+.active-sub-menu:nth-child(3){margin-right: 210px;}
+.active-sub-menu:nth-child(4){margin-right: 280px;}
+.active-sub-menu:nth-child(5){margin-right: 350px;}
+.active-sub-menu:nth-child(6){margin-right: 420px;}
+.icon-style{
+	font-size: 30px;
+	color: white;
+}
+
